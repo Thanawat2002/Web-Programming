@@ -1,0 +1,60 @@
+body {
+    background: #DDFCDD;
+    color: black;
+}
+
+h1 {
+    text-align: left;
+    font-size: 18pt;
+    font-style: normal;
+    color: blue;
+}
+
+h3 {
+    text-align: left;
+    font-size: 14pt;
+    font-style: italic;
+    color: magenta;
+}
+
+p {
+    text-align: center;
+    font-style: normal;
+    font-family: Cordia New;
+    font-size: 14pt;
+}
+
+p.normal {
+    font-size: 12pt;
+    text-align: left;
+    color: blue;
+}
+
+p.big {
+    font-size: 16pt;
+    text-align: center;
+    color: red;
+}
+
+selector:pseudo-class {
+    property: value;
+}
+
+a:link {
+    color: red;
+    font-family: Courier new;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 20pt;
+    color: blueviolet;
+}
